@@ -5,9 +5,6 @@ import java.util.Scanner;
  */
 public class Digraph {
     /**
-     * Newline declaration.
-     */
-    /**
      * number of vertices in this digraph.
      */
     private final int vertices;
