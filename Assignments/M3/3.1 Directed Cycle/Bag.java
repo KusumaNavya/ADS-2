@@ -75,7 +75,6 @@ public class Bag<Item> implements Iterable<Item> {
     public Iterator<Item> iterator()  {
         return new ListIterator();
     }
-
     /**
      * Class for list iterator.
      */
