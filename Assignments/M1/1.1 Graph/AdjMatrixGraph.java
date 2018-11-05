@@ -4,34 +4,34 @@ import java.util.NoSuchElementException;
  * Class for adj matrix graph.
  */
 public class AdjMatrixGraph {
-    /**
+    /**.
      * { var_description }
      */
     private static final String NEWLINE = System.getProperty("line.separator");
-    /**
+    /**.
      * { var_description }
      */
     private final int V;
-    /**
+    /**.
      * { var_description }
      */
     private int E;
-    /**
+    /**.
      * { var_description }
      */
     private boolean[][] adj;
-    //
-    // empty graph with V vertices
-    //
-    // @param      V     { parameter_description }
-    //
+    /**.
+     * Constructs the object.
+     *
+     * @param      V     { parameter_description }
+     */
     public AdjMatrixGraph(int V) {
         if (V < 0) throw new IllegalArgumentException("Too few vertices");
         this.V = V;
         this.E = 0;
         this.adj = new boolean[V][V];
     }
-    /**
+    /**.
      * { function_description }
      *    // number of vertices and edges
      * @return     { description_of_the_return_value }
@@ -49,7 +49,7 @@ public class AdjMatrixGraph {
         adj[v][w] = true;
         adj[w][v] = true;
     }
-    /**
+    /**.
      * Determines if it has edge.
      *    // does the graph contain the edge v-w?
      * @param      v     { parameter_description }
@@ -60,7 +60,7 @@ public class AdjMatrixGraph {
     public boolean hasEdge(int v, int w) {
         return adj[v][w];
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      v     { parameter_description }
@@ -70,13 +70,13 @@ public class AdjMatrixGraph {
     public Iterable<Integer> adj(int v) {
         return new AdjIterator(v);
     }
-    /**
+    /**.
      * Class for adj iterator.
      */
     private class AdjIterator implements Iterator<Integer>, Iterable<Integer> {
         private int v;
         private int w = 0;
-        /**
+        /**.
          * Constructs the object.
          *
          * @param      v     { parameter_description }
@@ -84,7 +84,7 @@ public class AdjMatrixGraph {
         AdjIterator(int v) {
             this.v = v;
         }
-        /**
+        /**.
          * { function_description }
          *
          * @return     { description_of_the_return_value }
@@ -92,7 +92,7 @@ public class AdjMatrixGraph {
         public Iterator<Integer> iterator() {
             return this;
         }
-        /**
+        /**.
          * Determines if it has next.
          *
          * @return     True if has next, False otherwise.
@@ -104,7 +104,7 @@ public class AdjMatrixGraph {
             }
             return false;
         }
-        /**
+        /**.
          * { function_description }
          *
          * @return     { description_of_the_return_value }
@@ -115,14 +115,14 @@ public class AdjMatrixGraph {
             }
             return w++;
         }
-        /**
+        /**.
          * { function_description }
          */
         public void remove()  {
             throw new UnsupportedOperationException();
         }
     }
-    /**
+    /**.
      * { function_description }
      *
      * @return     { description_of_the_return_value }

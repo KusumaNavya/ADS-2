@@ -1,16 +1,10 @@
 Starting audit...
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:7: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:11: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:14:23: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:15: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:18:17: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:19: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:28:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:28:27: Parameter V should be final. [FinalParameters]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:28:31: 'V' hides a field. [HiddenField]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:28:31: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:29: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:34: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:39:16: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:39:20: '{' at column 20 should have line break after. [LeftCurly]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:40:5: Class 'AdjMatrixGraph' looks like designed for extension (can be subclassed), but the method 'E' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'AdjMatrixGraph' final or making the method 'E' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
@@ -21,22 +15,17 @@ Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:48: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:60:28: Parameter v should be final. [FinalParameters]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:60:35: Parameter w should be final. [FinalParameters]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:63: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:70:34: Parameter v should be final. [FinalParameters]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:77:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:78:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:84:21: Parameter v should be final. [FinalParameters]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:84:25: 'v' hides a field. [HiddenField]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:87: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:102: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:107: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:118: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:125: First sentence should end with a period. [JavadocStyle]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:133:11: 'if' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:134:16: 'for' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M1\1.1 Graph\AdjMatrixGraph.java:135:20: 'for' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 36 errors.
+Checkstyle ends with 25 errors.
 Starting audit...
 Audit done.
 Starting audit...
