@@ -23,7 +23,6 @@ public class Digraph {
      * adj[v] = adjacency list for vertex v.
      */
     private int[] indegree;
-
     /**
      * Initializes an empty digraph with <em>V</em> vertices.
      *
@@ -43,7 +42,6 @@ public class Digraph {
             adj[v] = new Bag<Integer>();
         }
     }
-
     /**
      * Initializes a digraph from the specified input stream.
      * The format is the number of vertices <em>V</em>,
@@ -86,7 +84,6 @@ public class Digraph {
                 "invalid input format in Digraph constructor", e);
         }
     }
-
     /**
      * Initializes a new digraph that is a deep copy of the specified digraph.
      *
@@ -109,7 +106,6 @@ public class Digraph {
             }
         }
     }
-
     /**
      * Returns the number of vertices in this digraph.
      *
@@ -118,7 +114,6 @@ public class Digraph {
     public int vertices() {
         return vertices;
     }
-
     /**
      * Returns the number of edges in this digraph.
      *
@@ -138,7 +133,6 @@ public class Digraph {
                 "vertex " + v + " is not between 0 and " + (vertices - 1));
         }
     }
-
     /**
      * Adds the directed edge v→w to this digraph.
      *
@@ -154,7 +148,6 @@ public class Digraph {
         indegree[w]++;
         edges++;
     }
-
     /**
      * Returns the vertices adjacent from vertex {@code v} in this digraph.
      *
@@ -167,7 +160,6 @@ public class Digraph {
         validateVertex(v);
         return adj[v];
     }
-
     /**
      * Returns the number of directed edges incident from vertex {@code v}.
      * This is known as the <em>outdegree</em> of vertex {@code v}.
@@ -180,7 +172,6 @@ public class Digraph {
         validateVertex(v);
         return adj[v].size();
     }
-
     /**
      * Returns the number of directed edges incident to vertex {@code v}.
      * This is known as the <em>indegree</em> of vertex {@code v}.
@@ -193,7 +184,6 @@ public class Digraph {
         validateVertex(v);
         return indegree[v];
     }
-
     /**
      * Returns the reverse of the digraph.
      * 
