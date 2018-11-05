@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 /**.
  * Interface for graph.
  */
