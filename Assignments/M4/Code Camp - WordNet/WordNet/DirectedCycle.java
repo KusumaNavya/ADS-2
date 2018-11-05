@@ -1,3 +1,4 @@
+
 /**
  * Class for directed cycle.
  */
@@ -108,3 +109,6 @@ public class DirectedCycle {
         return true;
     }
 }
+
+
+
