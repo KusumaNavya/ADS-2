@@ -60,15 +60,15 @@ public final class Solution {
             // Handle the case of ViaPaths, where
             // three integers are given.
             // First is the source and second is
-            //  the via is the one where path should pass throuh.
+            // the via is the one where path should pass throuh.
             // third is the destination.
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
             while (scan.hasNextLine()) {
                 String[] tokens = scan.nextLine().split(" ");
+                System.out.println("No Path Found.");
             }
             break;
-
         default:
             break;
         }
