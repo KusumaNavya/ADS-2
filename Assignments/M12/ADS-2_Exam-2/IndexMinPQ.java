@@ -231,7 +231,7 @@ public class IndexMinPQ<Key extends Comparable<Key>>
         }
         if (keys[i].compareTo(key) <= 0) {
             throw new IllegalArgumentException(
-                "Calling decreaseKey with given argument would not decrease the key");
+            "Calling decreaseKey with given argument would not decrease the key");
         }
         keys[i] = key;
         swim(qp[i]);
@@ -257,7 +257,7 @@ public class IndexMinPQ<Key extends Comparable<Key>>
         }
         if (keys[i].compareTo(key) >= 0) {
             throw new IllegalArgumentException(
-                "Calling increaseKey with given argument would not increase the key");
+            "Calling increaseKey with given argument would not increase the key");
         }
         keys[i] = key;
         sink(qp[i]);
@@ -287,9 +287,9 @@ public class IndexMinPQ<Key extends Comparable<Key>>
     }
 
 
-    /***************************************************************************
+    /****************************
      * General helper functions.
-     ***************************************************************************/
+     ****************************/
     /**
      * greater.
      *
@@ -316,9 +316,9 @@ public class IndexMinPQ<Key extends Comparable<Key>>
     }
 
 
-    /***************************************************************************
+    /*************************
      * Heap helper functions.
-     ***************************************************************************/
+     *************************/
     /**
      * swim.
      *
@@ -353,9 +353,9 @@ public class IndexMinPQ<Key extends Comparable<Key>>
     }
 
 
-    /***************************************************************************
+    /**************
      * Iterators.
-     ***************************************************************************/
+     **************/
 
     /**
      * Returns an iterator that iterates over the keys on the
