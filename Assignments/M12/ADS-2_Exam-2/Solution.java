@@ -31,7 +31,7 @@ public final class Solution {
                 list.addEdge(obj);
             }
         }
-        String caseToGo = null;
+        String caseToGo = scan.nextLine();
         switch (caseToGo) {
         case "Graph":
             //Print the Graph Object.
