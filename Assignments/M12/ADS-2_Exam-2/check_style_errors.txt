@@ -9,12 +9,6 @@ Audit done.
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:12: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:17:33: Parameter args should be final. [FinalParameters]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 93). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:41: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:48: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 9 errors.
+Checkstyle ends with 3 errors.
