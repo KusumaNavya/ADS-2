@@ -8,7 +8,6 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:12: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 Audit done.
-Checkstyle ends with 3 errors.
+Checkstyle ends with 2 errors.

@@ -6,10 +6,10 @@ public class Solution {
     /**.
      * epmty constructor.
      */
-    Solution() {
+    private Solution() {
         //empty constructor
     }
-    /**
+    /**.
      * { function_description }
      *
      * @param      args  The arguments
