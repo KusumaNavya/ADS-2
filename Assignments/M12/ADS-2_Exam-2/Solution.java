@@ -44,6 +44,16 @@ public final class Solution {
             // First is the source and second is the destination.
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
+            while (scan.hasNextLine()) {
+                String[] tokens = scan.nextLine().split(" ");
+                DijkstraUndirectedSP path = new DijkstraUndirectedSP(list, Integer.parseInt(tokens[0]));
+                if (path.hasPathTo(Integer.parseInt(tokens[1]))) {
+                        System.out.println(path.distTo(Integer.parseInt(
+                                                         tokens[1])));
+                } else {
+                        System.out.println("No Path Found");
+                }
+            }
             break;
 
         case "ViaPaths":
