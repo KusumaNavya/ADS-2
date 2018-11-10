@@ -46,7 +46,8 @@ public final class Solution {
             // Other wise print "No Path Found."
             while (scan.hasNextLine()) {
                 String[] tokens = scan.nextLine().split(" ");
-                DijkstraUndirectedSP path = new DijkstraUndirectedSP(list, Integer.parseInt(tokens[0]));
+                DijkstraUndirectedSP path = new DijkstraUndirectedSP(list,
+                 Integer.parseInt(tokens[0]));
                 if (path.hasPathTo(Integer.parseInt(tokens[1]))) {
                         System.out.println(path.distTo(Integer.parseInt(
                                                          tokens[1])));
@@ -55,7 +56,6 @@ public final class Solution {
                 }
             }
             break;
-
         case "ViaPaths":
             // Handle the case of ViaPaths, where
             // three integers are given.
@@ -64,6 +64,10 @@ public final class Solution {
             // third is the destination.
             // If the path exists print the distance between them.
             // Other wise print "No Path Found."
+            while (scan.hasNextLine()) {
+                String[] tokens = scan.nextLine().split(" ");
+
+            }
             break;
 
         default:

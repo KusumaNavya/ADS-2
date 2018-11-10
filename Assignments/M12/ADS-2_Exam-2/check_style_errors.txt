@@ -10,21 +10,16 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:174: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:193: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:227: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:231: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:257: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:275: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:288: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:317: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:354: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:234: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:260: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:292: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:321: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\IndexMinPQ.java:358: Line is longer than 80 characters (found 81). [LineLength]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 6 errors.
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-2\Assignments\M12\ADS-2_Exam-2\Solution.java:49: Line is longer than 80 characters (found 104). [LineLength]
 Audit done.
-Checkstyle ends with 2 errors.
+Checkstyle ends with 1 errors.
 Starting audit...
 Audit done.

@@ -171,7 +171,8 @@ public class IndexMinPQ<Key extends Comparable<Key>>
             throw new IllegalArgumentException();
         }
         if (!contains(i)) {
-            throw new NoSuchElementException("index is not in the priority queue");
+            throw new NoSuchElementException(
+                "index is not in the priority queue");
         } else {
             return keys[i];
         }
@@ -190,7 +191,8 @@ public class IndexMinPQ<Key extends Comparable<Key>>
             throw new IllegalArgumentException();
         }
         if (!contains(i)) {
-            throw new NoSuchElementException("index is not in the priority queue");
+            throw new NoSuchElementException(
+                "index is not in the priority queue");
         }
         keys[i] = key;
         swim(qp[i]);
@@ -224,7 +226,8 @@ public class IndexMinPQ<Key extends Comparable<Key>>
             throw new IllegalArgumentException();
         }
         if (!contains(i)) {
-            throw new NoSuchElementException("index is not in the priority queue");
+            throw new NoSuchElementException(
+                "index is not in the priority queue");
         }
         if (keys[i].compareTo(key) <= 0) {
             throw new IllegalArgumentException(
@@ -272,7 +275,8 @@ public class IndexMinPQ<Key extends Comparable<Key>>
             throw new IllegalArgumentException();
         }
         if (!contains(i)) {
-            throw new NoSuchElementException("index is not in the priority queue");
+            throw new NoSuchElementException(
+                "index is not in the priority queue");
         }
         int index = qp[i];
         exch(index, n--);
