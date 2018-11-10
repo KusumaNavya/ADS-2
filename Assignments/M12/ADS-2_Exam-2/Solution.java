@@ -52,7 +52,7 @@ public final class Solution {
                         System.out.println(path.distTo(Integer.parseInt(
                                                          tokens[1])));
                 } else {
-                        System.out.println("No Path Found");
+                        System.out.println("No Path Found.");
                 }
             }
             break;
@@ -66,7 +66,6 @@ public final class Solution {
             // Other wise print "No Path Found."
             while (scan.hasNextLine()) {
                 String[] tokens = scan.nextLine().split(" ");
-
             }
             break;
 
