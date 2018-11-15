@@ -8,20 +8,23 @@ public class BoggleSolver {
 			if (dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2) {
 				score = 0;
 			}
-			if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
+			else if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
 				score = 1;
 			}
-			if (dictionary[i].length() == 5) {
+			else if (dictionary[i].length() == 5) {
 				score = 2;
 			}
-			if (dictionary[i].length() == 6) {
+			else if (dictionary[i].length() == 6) {
 				score = 3;
 			}
-			if (dictionary[i].length() == 7) {
+			else if (dictionary[i].length() == 7) {
 				score = 5;
 			}
-			if (dictionary[i].length() >= 8) {
+			else if (dictionary[i].length() >= 8) {
 				score = 11;
+			}
+			else {
+				score = 0;
 			}
 			tst.put(dictionary[i], score);
 		}
