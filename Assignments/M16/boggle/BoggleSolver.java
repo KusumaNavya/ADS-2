@@ -3,24 +3,21 @@ public class BoggleSolver {
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
 	public BoggleSolver(String[] dictionary) {
 		TST<Integer> tst = new TST<>();
-		for (int i = 0; i <= dictionary.length; i++ ) {
-			int score = 0;
-			if (dictionary[i].length() == 0 || dictionary[i].length() == 1 || dictionary[i].length() == 2) {
-				score = 0;
-			}
-			else if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
+		int score = 0;
+		for (int i = 0; i < dictionary.length; i++) {
+			if (dictionary[i].length() == 3 || dictionary[i].length() == 4) {
 				score = 1;
 			}
-			else if (dictionary[i].length() == 5) {
+			if (dictionary[i].length() == 5) {
 				score = 2;
 			}
-			else if (dictionary[i].length() == 6) {
+			if (dictionary[i].length() == 6) {
 				score = 3;
 			}
-			else if (dictionary[i].length() == 7) {
+			if (dictionary[i].length() == 7) {
 				score = 5;
 			}
-			else if (dictionary[i].length() >= 8) {
+			if (dictionary[i].length() >= 8) {
 				score = 11;
 			}
 			else {
