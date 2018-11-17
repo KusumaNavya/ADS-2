@@ -89,7 +89,7 @@ public class Solution {
 		BinarySearchST<String, Integer>  st = new BinarySearchST<String, Integer>();
 		// your code goes here
 		String[] msg = toReadFile(file);
-		for (int i = 0; i <= msg.length; i++) {
+		for (int i = 0; i < msg.length; i++) {
 			String words = msg[i].toLowerCase();
 			if (st.contains(words)) {
 				st.put(words, st.get(words) + 1);
@@ -100,7 +100,6 @@ public class Solution {
 		return st;
 	}
 }
-
 class T9 {
 
 	public T9(BinarySearchST<String, Integer> st) {
